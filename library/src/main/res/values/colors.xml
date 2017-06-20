@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#FFFFFF</color>
+    <color name="gray">#9c9c9c</color>
+    <color name="red">#d93c3c</color>
+
+    <color name="sr_color_primary">#000000</color>
+    <color name="sr_color_primary_dark">#000000</color>
+    <color name="sr_window_background">#FFFFFF</color>
+    <color name="common_list_smart_tab_underline_color">#FFFFFF</color>
+    <color name="base_bg">#ffeeeeee</color>
+    <color name="base_msg_color">#ff999999</color>
+    <integer-array name="gplus_colors">
+        <item>@color/gplus_color_1</item>
+        <item>@color/gplus_color_2</item>
+        <item>@color/gplus_color_3</item>
+        <item>@color/gplus_color_4</item>
+    </integer-array>
+
+    <color name="gplus_color_1">#3e802f</color>
+    <color name="gplus_color_2">#f4b400</color>
+    <color name="gplus_color_3">#427fed</color>
+    <color name="gplus_color_4">#b23424</color>
+
+    <drawable name="progress_bar_bg">#80FFFFFF</drawable>
+    <drawable name="sr_primary">@color/sr_color_primary</drawable>
+    <drawable name="transparent">@android:color/transparent</drawable>
+</resources>
