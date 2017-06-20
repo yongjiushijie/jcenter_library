@@ -23,8 +23,8 @@ android {
         }
     }
 
-    def siteUrl = 'https://github.com/SKLJW/LibraryProduct' // 项目主页。
-    def gitUrl = 'https://github.com/SKLJW/LibraryProduct' // Git仓库的url。
+    def siteUrl = 'https://github.com/yongjiushijie/jcenter_library' // 项目主页。
+    def gitUrl = 'https://github.com/yongjiushijie/jcenter_library' // Git仓库的url。
 
 // 唯一包名，比如compile 'com.yanzhenjie:andserver:1.0.1'中的com.yanzhenjie就是这里配置的。
     group = "com.ejjx.library"
@@ -98,7 +98,7 @@ android {
         configurations = ['archives']
         pkg {
             repo = "maven"  // 上传到maven库。
-            name = "sk_library"
+            name = "ejjx_library"
             // 发布到Bintray上的项目名字，这里的名字不是compile 'com.yanzhenjie:andserver:1.0.1'中的andserver。
             websiteUrl = siteUrl
             vcsUrl = gitUrl
